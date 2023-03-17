@@ -3,7 +3,7 @@ Project-->
 <manifest>
 
     <default remote="github" revision="master" sync-j="4" />
-    <remote name="github" fetch="git@github.com/ScottGibb" />
+    <remote name="github" fetch="git://github.com/ScottGibb" />
 
 
     <project name="LED-Strip-Controller-Hardware" path="Hardware" remote="github" revision="main" />
