@@ -1,10 +1,12 @@
 <!-- A Manifest file for downloading all the repositories associated with the LED Strip Controller
 Project-->
 <manifest>
-    <remote name="github" fetch="git@github.com:ScottGibb" />
+
+    <default remote="github" revision="master" sync-j="4" />
+    <remote name="github" fetch="git@github.com/ScottGibb" />
 
 
-    <project name="LED-Strip-Controller-Hardware" path="Hardware" remote="github" revision="master" />
-    <project name="LED-Strip-Controller-Software" path="Software" remote="github" revision="master" />
-    <project name="LED-Strip-Controller-Firmware" path="Firmware" remote="github" revision="master" />
+    <project name="LED-Strip-Controller-Hardware" path="Hardware" remote="github" revision="main" />
+    <project name="LED-Strip-Controller-Software" path="Software" remote="github" revision="main" />
+    <project name="LED-Strip-Controller-Firmware" path="Firmware" remote="github" revision="main" />
 </manifest>
