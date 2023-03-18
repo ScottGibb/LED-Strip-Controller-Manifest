@@ -9,4 +9,6 @@ Project-->
     <project name="LED-Strip-Controller-Hardware" path="Hardware" remote="github" revision="main" />
     <project name="LED-Strip-Controller-Software" path="Software" remote="github" revision="main" />
     <project name="LED-Strip-Controller-Firmware" path="Firmware" remote="github" revision="main" />
+    <project name="LED-Strip-Controller-Manifest" path="Manifest" remote="github" revision="main" />
+
 </manifest>
