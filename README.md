@@ -15,6 +15,13 @@ This project is a full stack project revolved around controlling LED RGB light s
 The architecture of the system is shown below, as described above the  system is built with the idea of it being highly modularized, with that in mind a lot of the software applications run on a Raspberry Pi inside a docker container, for which docker-compose is being used as a way of orchestrating all the containers. The general design of the architecture is that user based applications are written in high level languages and connect to the hardware platform via USB or TCP depending on the the microcontroller being used for the platform. As for casing, 3D printing is also used within this project along with Fusion 360 all of these designs are available on my [Thingiverse](https://www.thingiverse.com/scottgibb/designs) profile.
 ![High Level System Architecture](docs/High_Level_System_Diagram.png)
 
+## Prototypes in Action
+
+The first prototype to be built from the Project is the lights that were used for my Server Rack and shelves. This is where the project started as I needed a lighting solution for my CNC and Prusa I3 Mk3s 3d printer. The result of this is shown below:
+
+![Server Rack Lights](docs/Server_Rack_Lights.jpg)
+![Server Rack Lights](docs/Server_Rack_Lights_Mulit_Coloured.jpg)
+
 ## Installation 
 
 As for installing the repo tool, please refer to the [repo tool documentation](https://gerrit.googlesource.com/git-repo/+/master/README.md#download-repo). For creating the project files and interacting with the source code, we use this repo tool as follows:
