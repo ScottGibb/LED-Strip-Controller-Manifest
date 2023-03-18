@@ -1,6 +1,6 @@
 # LED Strip Controller Manifest
 
-![Languages and Tools](docs/languages_and_tools.png)
+![Languages and Tools](docs/Languages_and_Tools.png)
 ## Summary
 
 
