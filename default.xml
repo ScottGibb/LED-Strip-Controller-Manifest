@@ -2,7 +2,7 @@
 Project-->
 <manifest>
 
-    <default remote="github" revision="master" sync-j="4" />
+    <default remote="github" revision="main" sync-j="4" />
     <remote name="github" fetch="git://github.com/ScottGibb" />
 
 
