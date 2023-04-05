@@ -1,4 +1,4 @@
-name: Lint
+name: Static Analysis
 
 on: [push]
 
