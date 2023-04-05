@@ -14,17 +14,19 @@ jobs:
     - name: repo init
       run: |
         echo "Repo Initializing"
+        mkdir LED-Strip-Controller
+        cd LED-Strip-Controller
         repo init -u "https://github.com/ScottGibb/LED-Strip-Controller-Manifest.git"
 
     - name: repo sync
       run: |
         echo "Repo Syncing"
         repo sync
+        ls -l
 
     - name: Check if repositories are downloaded
       run: |
         echo "Checking if repositories are downloaded"
-        ls -l
         sh scripts/check-directories.sh
     
 
