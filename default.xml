@@ -5,7 +5,7 @@ Project-->
     <default remote="github" revision="main" sync-j="4" />
     <remote name="github" fetch="git://github.com/ScottGibb" />
 falknfa;olhlifc\kml;ckl\ ukv;iak'\ vl\jjck][
-
+    <va,iali>jfahkfalkahkafhaaaklfhlkaflk </va,i>
     <project name="LED-Strip-Controller-Hardware" path="Hardware" remote="github" revision="main" />
     <project name="LED-Strip-Controller-Software" path="Software" remote="github" revision="main" />
     <project name="LED-Strip-Controller-Firmware" path="Firmware" remote="github" revision="main" />
