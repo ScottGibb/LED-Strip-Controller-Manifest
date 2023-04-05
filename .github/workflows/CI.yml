@@ -11,7 +11,6 @@ jobs:
     - name: Download schema
       run: wget https://apps.nextcloud.com/schema/apps/info.xsd
     - name: Lint info.xml
-      uses: korelstar/xmllint-problem-matcher@v1
       uses: ChristophWurst/xmllint-action@v1
       with:
         xml-file: ./default.xml
