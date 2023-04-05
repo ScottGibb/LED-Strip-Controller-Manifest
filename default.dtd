@@ -79,3 +79,4 @@
   <!ELEMENT include EMPTY>
   <!ATTLIST include name CDATA #REQUIRED>
 ]>
+<manifest></manifest>
