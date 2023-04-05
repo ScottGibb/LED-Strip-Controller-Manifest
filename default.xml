@@ -1,16 +1,16 @@
 <!-- A Manifest file for downloading all the repositories associated with the LED Strip Controller Project-->
 <!-- DOCTYPE is injected during CI cycle due to repo sync not working otherwise -->
 <manifest>
-    <remote name="github" fetch="git://github.com/ScottGibb" />
+    <remote name="github" fetch="https://github.com/" />
 
     <default remote="github" revision="main" sync-j="4" />
 
-    <project name="LED-Strip-Controller-Hardware" path="Hardware" remote="github" revision="main" />
+    <project name="ScottGibb/LED-Strip-Controller-Hardware" path="Hardware" remote="github" revision="main" />
     
-    <project name="LED-Strip-Controller-Software" path="Software" remote="github" revision="main" />
+    <project name="ScottGibb/LED-Strip-Controller-Software" path="Software" remote="github" revision="main" />
 
-    <project name="LED-Strip-Controller-Firmware" path="Firmware" remote="github" revision="main" />
+    <project name="ScottGibb/LED-Strip-Controller-Firmware" path="Firmware" remote="github" revision="main" />
     
-    <project name="LED-Strip-Controller-Manifest" path="Manifest" remote="github" revision="main" />
+    <project name="ScottGibb/LED-Strip-Controller-Manifest" path="Manifest" remote="github" revision="main" />
 
 </manifest>
