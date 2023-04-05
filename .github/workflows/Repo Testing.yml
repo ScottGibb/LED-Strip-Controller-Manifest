@@ -19,6 +19,7 @@ jobs:
         repo init -u "https://github.com/ScottGibb/LED-Strip-Controller-Manifest.git"
 
     - name: repo sync
+      timeout-minutes: 20 
       run: |
         echo "Repo Syncing"
         cd LED-Strip-Controller
