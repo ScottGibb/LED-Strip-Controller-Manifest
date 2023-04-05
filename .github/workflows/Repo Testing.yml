@@ -22,7 +22,7 @@ jobs:
       run: |
         echo "Repo Syncing"
         cd LED-Strip-Controller
-        repo sync
+        repo sync -j`nproc --all`
         ls -l
 
     - name: Check if repositories are downloaded
