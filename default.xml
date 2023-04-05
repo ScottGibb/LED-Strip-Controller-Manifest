@@ -1,6 +1,6 @@
 <!-- A Manifest file for downloading all the repositories associated with the LED Strip Controller
 Project-->
-<!DOCTYPE manifest SYSTEM "default.dtd">
+<!DOCTYPE default SYSTEM "default.dtd">
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
