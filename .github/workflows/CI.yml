@@ -10,8 +10,5 @@ jobs:
       uses: actions/checkout@master
     - name: Download schema
       run: wget https://apps.nextcloud.com/schema/apps/info.xsd
-    - name: Lint info.xml
-      uses: ChristophWurst/xmllint-action@v1
-      with:
-        xml-file: ./default.xml
-        xml-schema-file: ./default.xsd
+    - name: XML Linit
+      run: "xmllint --noout corpus/*.xml"
