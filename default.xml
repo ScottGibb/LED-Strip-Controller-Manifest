@@ -1,5 +1,4 @@
 <!-- A Manifest file for downloading all the repositories associated with the LED Strip Controller Project-->
-<!DOCTYPE manifest SYSTEM "default.dtd">
 <manifest>
     <remote name="github" fetch="git://github.com/ScottGibb" />
 
