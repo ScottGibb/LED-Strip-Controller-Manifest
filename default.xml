@@ -1,5 +1,5 @@
 <!-- A Manifest file for downloading all the repositories associated with the LED Strip Controller Project-->
-<!DOCTYPE manifest SYSTEM "default.dtd">
+<!-- DOCTYPE is injected during CI cycle due to repo sync not working otherwise -->
 <manifest>
     <remote name="github" fetch="git://github.com/ScottGibb" />
 
