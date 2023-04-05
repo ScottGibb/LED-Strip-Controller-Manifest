@@ -1,0 +1,30 @@
+name: Repo Testing
+
+on: [push]
+
+jobs:
+  repo-init-sync:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+    - name: Install Repo Tool
+      run: sudo apt-get install repo
+
+    - name: repo init
+      run: |
+      echo "Repo Initializing"
+      repo init -u "git@github.com:ScottGibb/LED-Strip-Controller-Manifest.git"
+
+    - name: repo sync
+      run: |
+      echo "Repo Syncing"
+      repo sync
+
+    - name: Check if repositories are downloaded
+      run: |
+      echo "Checking if repositories are downloaded"
+      ls -l
+      sh scripts/check-directories.sh
+    
+
