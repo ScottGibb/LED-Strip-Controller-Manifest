@@ -13,18 +13,18 @@ jobs:
 
     - name: repo init
       run: |
-      echo "Repo Initializing"
-      repo init -u "git@github.com:ScottGibb/LED-Strip-Controller-Manifest.git"
+        echo "Repo Initializing"
+        repo init -u "git@github.com:ScottGibb/LED-Strip-Controller-Manifest.git"
 
     - name: repo sync
       run: |
-      echo "Repo Syncing"
-      repo sync
+        echo "Repo Syncing"
+        repo sync
 
     - name: Check if repositories are downloaded
       run: |
-      echo "Checking if repositories are downloaded"
-      ls -l
-      sh scripts/check-directories.sh
+        echo "Checking if repositories are downloaded"
+        ls -l
+        sh scripts/check-directories.sh
     
 
