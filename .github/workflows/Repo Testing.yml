@@ -21,12 +21,14 @@ jobs:
     - name: repo sync
       run: |
         echo "Repo Syncing"
+        cd LED-Strip-Controller
         repo sync
         ls -l
 
     - name: Check if repositories are downloaded
       run: |
         echo "Checking if repositories are downloaded"
-        sh scripts/check-directories.sh
+        cd LED-Strip-Controller
+        sh ../scripts/check-directories.sh
     
 
