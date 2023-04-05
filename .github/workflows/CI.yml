@@ -11,4 +11,4 @@ jobs:
     - name: Install xmllint
       run: sudo apt-get install -y libxml2-utils
     - name: XML Lint
-      run: xmllint --schema default.dtd default.xml
+      run: xmllint --valid --noout default.xml
