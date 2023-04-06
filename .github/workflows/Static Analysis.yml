@@ -22,4 +22,4 @@ jobs:
     - name: Shell Check
       run: |
         echo "Checking shell scripts"
-        shellcheck -x -s sh *.sh
+        shellcheck scripts/*.sh
