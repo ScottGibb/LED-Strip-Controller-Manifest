@@ -30,7 +30,7 @@ As for installing the repo tool, please refer to the [repo tool documentation](h
 # Create a directory for the project
 mkdir LEDStripController
 cd LEDStripController
-repo init -u "git@github.com:ScottGibb/LED-Strip-Controller-Manifest.git"
+repo init -u "https://github.com/ScottGibb/LED-Strip-Controller-Manifest.git"
 repo sync
 ```
 
