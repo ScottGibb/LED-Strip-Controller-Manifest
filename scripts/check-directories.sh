@@ -1,3 +1,6 @@
+#!/bin/bash
+# Description: Check if all directories are downloaded
+
 if [ -d "Hardware" ]; then
     echo "Hardware downloaded"
 else
@@ -25,3 +28,6 @@ else
     echo "Documentation not downloaded"
     exit 1
 fi
+
+echo "All directories downloaded"
+exit 0
