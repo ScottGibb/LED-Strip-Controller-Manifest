@@ -8,11 +8,18 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@master
-    - name: Install xmllint
-      run: sudo apt-get install -y libxml2-utils
+
+    - name: Install Dependencies
+      run: sudo apt-get install -y libxml2-utils shellcheck
+
     - name: XML Lint
       run: |
         echo "Sticking <!DOCTYPE manifest SYSTEM \"default.dtd\"> at the top of default.xml"
         echo "$(echo '<!DOCTYPE manifest SYSTEM "default.dtd">' | cat - default.xml)" > default.xml
         cat default.xml
         xmllint --valid --noout default.xml
+
+    - name: Shell Check
+      run: |
+        echo "Checking shell scripts"
+        shellcheck scripts/*.sh
