@@ -3,14 +3,15 @@ name: Static Analysis
 on: [push]
 
 jobs:
-  xml-linters:
+  XML_lint:
+    name: XML Lint
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@master
+      uses: actions/checkout@v2
 
     - name: Install Dependencies
-      run: sudo apt-get install -y libxml2-utils shellcheck
+      run: sudo apt-get install -y libxml2-utils 
 
     - name: XML Lint
       run: |
@@ -19,7 +20,27 @@ jobs:
         cat default.xml
         xmllint --valid --noout default.xml
 
+  Shell_Check:
+    name: Shell Check
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Install Dependencies
+      run: sudo apt-get install -y shellcheck
     - name: Shell Check
       run: |
         echo "Checking shell scripts"
-        shellcheck scripts/*.sh
+        shellcheck **/*.sh
+
+  Markdown_Lint_Check:
+    name: Markdown Lint Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install markdownlint-cli
+        run: npm install -g markdownlint-cli
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Run markdownlint
+        run: markdownlint '**/*.md'
