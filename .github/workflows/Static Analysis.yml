@@ -20,7 +20,7 @@ jobs:
         cat default.xml
         xmllint --valid --noout default.xml
 
-    Shell_Check:
+  Shell_Check:
     name: Shell Check
     runs-on: ubuntu-latest
     steps:
@@ -34,7 +34,7 @@ jobs:
         echo "Checking shell scripts"
         shellcheck **/*.sh
 
-    Markdown_Lint_Check:
+  Markdown_Lint_Check:
     name: Markdown Lint Check
     runs-on: ubuntu-latest
     steps:
