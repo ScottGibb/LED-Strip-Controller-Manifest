@@ -1,9 +1,10 @@
 # LED Strip Controller Manifest
+
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![Static Analysis](https://github.com/ScottGibb/LED-Strip-Controller-Manifest/actions/workflows/Static%20Analysis.yml/badge.svg)](https://github.com/ScottGibb/LED-Strip-Controller-Manifest/actions/workflows/Static%20Analysis.yml) [![Repo Testing](https://github.com/ScottGibb/LED-Strip-Controller-Manifest/actions/workflows/Repo%20Testing.yml/badge.svg)](https://github.com/ScottGibb/LED-Strip-Controller-Manifest/actions/workflows/Repo%20Testing.yml)
 
 ![Languages and Tools](docs/Languages_and_Tools.png)
-## Summary
 
+## Summary
 
 This project is a full stack project that revolved around controlling LED RGB light strips using a variety of different software applications. In this project, we use a variety of different systems such as STM32, ESP8266 and Raspberry Pi. The design of the system is described in the [Architecture](#architecture) section. The project is split into three main parts:
 
@@ -18,14 +19,15 @@ The architecture of the system is shown below, as described above the system is 
 
 ## Prototypes in Action
 
-The first prototype to be built from the Project is the lights that were used for my Server Rack and shelves. This is where the project started as I needed a lighting solution for my CNC and Prusa I3 Mk3s 3d printer. The result of this is shown below:
+The prototype to be built from the Project is the lights that were used for my Server Rack and shelves. This is where the project started as I needed a lighting solution for my CNC and Prusa I3 Mk3s 3d printer. The result of this is shown below:
 
 ![Server Rack Lights](docs/Server_Rack_Lights.jpg)
 ![Server Rack Lights](docs/Server_Rack_Lights_Mulit_Coloured.jpg)
 
-## Installation 
+## Installation
 
 As for installing the repo tool, please refer to the [repo tool documentation](https://gerrit.googlesource.com/git-repo/+/master/README.md#download-repo). For creating the project files and interacting with the source code, we use this repo tool as follows:
+
 ```bash
 # Create a directory for the project
 mkdir LEDStripController
@@ -35,6 +37,7 @@ repo sync
 ```
 
 Once this is done you should have four folders in your project directory, this will mirror the four GitHub repositories:
+
 - `Firmware`
 - `Hardware`
 - `Software`
