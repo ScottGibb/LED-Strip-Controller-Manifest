@@ -1,0 +1,32 @@
+---
+
+name: Repo Testing
+
+on: [push]
+
+jobs:
+  repo-init-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+      - name: Install Repo Tool
+        run: sudo apt-get install repo
+      - name: repo init
+        run: |
+          echo "Repo Initializing"
+          mkdir LED-Strip-Controller
+          cd LED-Strip-Controller
+          repo init -u "https://github.com/ScottGibb/LED-Strip-Controller-Manifest.git"
+      - name: repo sync
+        timeout-minutes: 20
+        run: |
+          echo "Repo Syncing"
+          cd LED-Strip-Controller
+          repo sync -j`nproc --all`
+          ls -l
+      - name: Check if repositories are downloaded
+        run: |
+          echo "Checking if repositories are downloaded"
+          cd LED-Strip-Controller
+          sh ../scripts/check-directories.sh
