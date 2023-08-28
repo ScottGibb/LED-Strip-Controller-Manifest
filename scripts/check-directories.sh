@@ -29,7 +29,7 @@ else
     exit 1
 fi
 
-if [ -d "Octoprint Integration" ]; then
+if [ -d "Octoprint" ]; then
     echo "Octoprint Integration downloaded"
 else
     echo "Octoprint Integration not downloaded"
