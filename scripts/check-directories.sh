@@ -29,5 +29,13 @@ else
     exit 1
 fi
 
-echo "All directories downloaded"
+if [ -d "Octoprint Integration" ]; then
+    echo "Octoprint Integration downloaded"
+else
+    echo "Octoprint Integration not downloaded"
+    exit 1
+fi
+
+if 
+    echo "All directories downloaded"
 exit 0
