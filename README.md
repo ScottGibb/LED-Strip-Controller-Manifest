@@ -14,7 +14,7 @@ This project is a full stack project that revolved around controlling LED RGB li
 
 As well as the three main parts listed above, there is also a daughter repository which is for integration with Octoprint:
 
-- [Octoprint Integration](https://github.com/ScottGibb/LED-Strip-Controller-Octoprint)
+- [Octoprint Integration](https://github.com/ScottGibb/LED-Strip-Controller-Octoprint) A simple repository containing integration scripts to be used with Octoprint and its plugins.
 
 ### Architecture
 
