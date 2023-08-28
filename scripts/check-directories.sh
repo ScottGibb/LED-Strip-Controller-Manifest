@@ -36,6 +36,5 @@ else
     exit 1
 fi
 
-if 
-    echo "All directories downloaded"
+echo "All directories downloaded"
 exit 0
