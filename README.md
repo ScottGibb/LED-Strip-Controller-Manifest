@@ -12,6 +12,10 @@ This project is a full stack project that revolved around controlling LED RGB li
 [Hardware](https://github.com/ScottGibb/LED-Strip-Controller-Hardware) To control the LED strips we need a way to interface with them. This is done using a variety of different hardware platforms. The hardware is designed using KiCad and the PCBS are designed to be used with the firmware listed above.
 - [Software](https://github.com/ScottGibb/LED-Strip-Controller-Software) At the very top layer of the stack we have the software. In this repository, there is a variety of different application software and is designed to be used with the hardware and firmware listed above. Each of the different software applications solves a different issue such as Alexa integration, mobile application and simple command line applications. More on this is described in the repository itself.
 
+As well as the three main parts listed above, there is also a daughter repository which is for integration with Octoprint:
+
+- [Octoprint Integration](https://github.com/ScottGibb/LED-Strip-Controller-Octoprint)
+
 ### Architecture
 
 The architecture of the system is shown below, as described above the system is built with the idea of it being highly modularized, with that in mind a lot of the software applications run on a Raspberry Pi inside a docker container, for which docker-compose is being used as a way of orchestrating all the containers. The general design of the architecture is that user-based applications are written in high-level languages and connect to the hardware platform via USB or TCP depending on the microcontroller being used for the platform. As for casing, 3D printing is also used within this project along with Fusion 360 all of these designs are available on my [Thingiverse](https://www.thingiverse.com/scottgibb/designs) profile.
