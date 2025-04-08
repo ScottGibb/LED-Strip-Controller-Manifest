@@ -1,6 +1,6 @@
 # LED Strip Controller Manifest
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![Static Analysis](https://github.com/ScottGibb/LED-Strip-Controller-Manifest/actions/workflows/Static%20Analysis.yaml/badge.svg)](https://github.com/ScottGibb/LED-Strip-Controller-Manifest/actions/workflows/Static%20Analysis.yaml) [![Repo Testing](https://github.com/ScottGibb/LED-Strip-Controller-Manifest/actions/workflows/Repo%20Testing.yaml/badge.svg)](https://github.com/ScottGibb/LED-Strip-Controller-Manifest/actions/workflows/Repo%20Testing.yaml)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![MegaLinter](https://github.com/ScottGibb/LED-Strip-Controller-Manifest/actions/workflows/Mega%20Linter.yaml/badge.svg)](https://github.com/ScottGibb/LED-Strip-Controller-Manifest/actions/workflows/Mega%20Linter.yaml) [![Repo Testing](https://github.com/ScottGibb/LED-Strip-Controller-Manifest/actions/workflows/Repo%20Testing.yaml/badge.svg)](https://github.com/ScottGibb/LED-Strip-Controller-Manifest/actions/workflows/Repo%20Testing.yaml)
 
 ![Languages and Tools](docs/Languages_and_Tools.png)
 
