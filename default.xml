@@ -6,11 +6,11 @@
     <default remote="github" revision="main" sync-j="4" />
 
     <project name="ScottGibb/LED-Strip-Controller-Hardware" path="Hardware" remote="github" revision="main" />
-    
+
     <project name="ScottGibb/LED-Strip-Controller-Software" path="Software" remote="github" revision="main" />
 
     <project name="ScottGibb/LED-Strip-Controller-Firmware" path="Firmware" remote="github" revision="main" />
-    
+
     <project name="ScottGibb/LED-Strip-Controller-Manifest" path="Manifest" remote="github" revision="main" />
 
     <project name="ScottGibb/LED-Strip-Controller-Octoprint" path="Octoprint" remote="github" revision="main" />
