@@ -1,5 +1,4 @@
 ---
-
 name: Repo Testing
 
 on: [push]
@@ -24,7 +23,7 @@ jobs:
         run: |
           echo "Repo Syncing"
           cd LED-Strip-Controller
-          repo sync -j`nproc --all`
+          repo sync -j"$(nproc --all)"
           ls -l
       - name: Check if repositories are downloaded
         run: |
