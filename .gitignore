@@ -1,2 +1,4 @@
 # Drawio files
 *.bkp
+
+megalinter-reports/
