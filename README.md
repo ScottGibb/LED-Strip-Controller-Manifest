@@ -2,7 +2,7 @@
 
 <!-- markdown-link-check-disable -->
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![MegaLinter](https://github.com/ScottGibb/LED-Strip-Controller-Manifest/actions/workflows/Mega%20Linter.yaml/badge.svg)](https://github.com/ScottGibb/LED-Strip-Controller-Manifest/actions/workflows/Mega%20Linter.yaml) [![Repo Testing](https://github.com/ScottGibb/LED-Strip-Controller-Manifest/actions/workflows/Repo%20Testing.yaml/badge.svg)](https://github.com/ScottGibb/LED-Strip-Controller-Manifest/actions/workflows/Repo%20Testing.yaml)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![MegaLinter](https://github.com/ScottGibb/LED-Strip-Controller-Manifest/actions/workflows/mega_linter.yaml/badge.svg)](https://github.com/ScottGibb/LED-Strip-Controller-Manifest/actions/workflows/mega_linter.yaml) [![Repo Testing](https://github.com/ScottGibb/LED-Strip-Controller-Manifest/actions/workflows/repo_testing.yaml/badge.svg)](https://github.com/ScottGibb/LED-Strip-Controller-Manifest/actions/workflows/repo_testing.yaml)
 
 <!-- markdown-link-check-enable -->
 
