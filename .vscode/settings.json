@@ -11,5 +11,8 @@
   "[markdown]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "conventionalCommits.scopes": [
+    "ci"
+  ]
 }
