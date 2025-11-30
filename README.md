@@ -1,8 +1,12 @@
 # LED Strip Controller Manifest
+
 <!-- markdown-link-check-disable -->
+
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![MegaLinter](https://github.com/ScottGibb/LED-Strip-Controller-Manifest/actions/workflows/Mega%20Linter.yaml/badge.svg)](https://github.com/ScottGibb/LED-Strip-Controller-Manifest/actions/workflows/Mega%20Linter.yaml) [![Repo Testing](https://github.com/ScottGibb/LED-Strip-Controller-Manifest/actions/workflows/Repo%20Testing.yaml/badge.svg)](https://github.com/ScottGibb/LED-Strip-Controller-Manifest/actions/workflows/Repo%20Testing.yaml)
+
 <!-- markdown-link-check-enable -->
-![Languages and Tools](docs/Languages_and_Tools.png)
+
+![Languages and Tools](docs/languages_and_tools.drawio.svg)
 
 ## Summary
 
@@ -19,7 +23,8 @@ As well as the three main parts listed above, there is also a daughter repositor
 ### Architecture
 
 The architecture of the system is shown below, as described above the system is built with the idea of it being highly modularized, with that in mind a lot of the software applications run on a Raspberry Pi inside a docker container, for which docker-compose is being used as a way of orchestrating all the containers. The general design of the architecture is that user-based applications are written in high-level languages and connect to the hardware platform via USB or TCP depending on the microcontroller being used for the platform. As for casing, 3D printing is also used within this project along with Fusion 360 all of these designs are available on my [Thingiverse](https://www.thingiverse.com/scottgibb/designs) profile.
-![High Level System Architecture](docs/High_Level_System_Diagram.png)
+
+![High Level System Architecture](docs/high_level_system_diagram.drawio.svg)
 
 ## Prototypes in Action
 
