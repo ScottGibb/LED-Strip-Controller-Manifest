@@ -2,7 +2,6 @@
 
 ## [1.1.0](https://github.com/ScottGibb/LED-Strip-Controller-Manifest/compare/v1.0.1...v1.1.0) (2025-12-02)
 
-
 ### Features
 
 * Add codeowners file for automerge ([342a1d1](https://github.com/ScottGibb/LED-Strip-Controller-Manifest/commit/342a1d1dc85c5abf7d93c95cb1c4379171903374))
