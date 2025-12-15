@@ -2,7 +2,6 @@
 
 ## [1.2.0](https://github.com/ScottGibb/LED-Strip-Controller-Manifest/compare/v1.1.0...v1.2.0) (2025-12-15)
 
-
 ### Features
 
 * **ci:** Enhance Dependabot auto-merge workflow ([d742f7c](https://github.com/ScottGibb/LED-Strip-Controller-Manifest/commit/d742f7c8f4e88e333516a31eb5b95ccf01f56a08))
