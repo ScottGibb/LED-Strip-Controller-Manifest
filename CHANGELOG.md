@@ -2,7 +2,6 @@
 
 ## [1.2.1](https://github.com/ScottGibb/LED-Strip-Controller-Manifest/compare/v1.2.0...v1.2.1) (2026-01-26)
 
-
 ### Bug Fixes
 
 * **docs:** incorrect pictures ([ae6db4d](https://github.com/ScottGibb/LED-Strip-Controller-Manifest/commit/ae6db4d1acf3e58ff58b59f14be8600ca825ac8d))
